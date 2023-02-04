@@ -1,0 +1,44 @@
+.searchSection {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterButton {
+    height: 45px;
+    border: none;
+    padding: 10px;
+    padding-right: 30px;
+    background-color: #15616D;
+    color: white
+}
+
+.filterButton:hover {
+    background-color: #0f424a;
+}
+
+.inputArea {
+    width: 564.9px;
+    height: 45px;
+}
+
+.inputArea button {
+    background-color: #15616D;
+}
+
+.inputArea button:hover {
+    background-color: #0f424a;
+}
+
+.dropdownTab {
+    transition: 0.7s ease-in-out;
+}
+
+.swapDown {
+    top: 213px
+}
+
+.posPadrao {
+    top: -385px
+}

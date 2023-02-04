@@ -1,0 +1,37 @@
+.body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 73px 180px 200px 1fr 800px 253px;
+  grid-template-areas: 
+    "header"
+    "menu"
+    "promote"
+    "products-area"
+    "loc-area"
+    "footer";
+}
+
+.search {
+  grid-area: menu;
+}
+
+.header {
+  grid-area: header;
+}
+
+.promote {
+  grid-area: promote;
+}
+
+.productsArea {
+  grid-area: products-area;
+}
+
+.locArea {
+  grid-area: loc-area
+}
+
+.footer {
+  grid-area: footer
+}

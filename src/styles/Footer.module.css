@@ -1,0 +1,18 @@
+.footer {
+    background-color: #202020;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.footer > div i {
+    width: 35px;
+    height: 35px;
+}
+

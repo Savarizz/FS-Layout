@@ -1,0 +1,40 @@
+.collectionHeader {
+    font-family: 'Outfit';
+    font-size: 40px
+}
+
+.productPhoto {
+    width: 100%;
+    height: 260px;
+}
+
+.infoBody {
+    display: grid;
+    grid-template-columns: 1fr 70px;
+    grid-template-rows: 50px 25px 35px 1fr;
+    grid-template-areas: 
+        "productName productName"
+        "sizes sizes"
+        "colors colors"
+        "price favorite";
+}
+
+.productName {
+    grid-area: productName;
+}
+
+.sizes {
+    grid-area: sizes
+}
+
+.colors {
+    grid-area: colors;
+}
+
+.price{
+    grid-area: price;
+}
+
+.favorite {
+    grid-area: favorite
+}

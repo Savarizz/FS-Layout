@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Junge&family=Lato:ital,wght@1,900&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Junge&family=Lato:ital,wght@1,900&family=Noto+Sans&family=Roboto+Condensed:wght@700&display=swap');
+
+.logo {
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .infoHeader {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+  .backgroundHeader {
+        background-color: #202020;
+  }
+
+  .infoWidth {
+    width: 700px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #202020
+  }
+
+  .link:hover {
+    color: #202020;
+  }
+
+  .link:hover::after {
+    content: " >";
+  }
+
+
+  .peçasDeRoupa a {
+    width: 120px;
+  }

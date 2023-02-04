@@ -1,0 +1,36 @@
+.locInfos {
+    width: 550px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 125px
+}
+
+.locInfos header {
+    color: black;
+    font-family: 'Outfit';
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.locInfos p {
+    width: 340px;
+    margin-top: 60px;
+    font-family: 'Noto Sans';
+}
+
+.locInfos > div {
+    margin-top: 60px;
+}
+
+.locInfos > div div {
+    color: #15616D
+}
+
+.map {
+    width: 861.36px;
+    height: 626.27px;
+    border: solid 10px #202020;
+    border-radius: 15px;
+}
