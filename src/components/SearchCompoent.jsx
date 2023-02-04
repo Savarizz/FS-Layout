@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import Styles from '../styles/SearchComponent.module.css'
 import DropdownMenu from "./DropdownMenu";
 
-export default class extends React.Component {
+export default class SearchComponent extends React.Component {
 
     constructor(props) {
         super(props);
