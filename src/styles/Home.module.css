@@ -1,5 +1,6 @@
 .body {
   height: 100vh;
+  width: 100vw;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 73px 180px 200px 1fr 800px 253px;
@@ -34,4 +35,21 @@
 
 .footer {
   grid-area: footer
+}
+
+@media(max-width: 768px) {
+    .body {
+      height: 100vh;
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 73px 180px 200px 1fr 800px 500px;
+      grid-template-areas: 
+        "header"
+        "menu"
+        "promote"
+        "products-area"
+        "loc-area"
+        "footer";
+    }
 }

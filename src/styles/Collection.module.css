@@ -8,6 +8,10 @@
     height: 260px;
 }
 
+.collectionArea {
+    width: 1512px;
+}
+
 .infoBody {
     display: grid;
     grid-template-columns: 1fr 70px;
@@ -17,6 +21,20 @@
         "sizes sizes"
         "colors colors"
         "price favorite";
+}
+
+.productContainer {
+    width: 313px;
+    height: 490px;
+}
+
+.priceButton {
+    width: 125px;
+    background-color: #15616D;
+}
+
+.priceButton:hover {
+    background-color: #0f424a;
 }
 
 .productName {
@@ -37,4 +55,64 @@
 
 .favorite {
     grid-area: favorite
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .collectionArea {
+        width: 100vw;
+        margin: 0px;
+        padding: 0px
+    }
+
+    .collectionArea > div {
+        width: 100%;
+        align-items: center;
+    }
+
+    .products {
+        width: 90vw;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: scroll;
+    }
+
+    .products div {
+        width: 90vw;
+    }
+
+    .infoBody {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 70px;
+        grid-template-rows: 50px 25px 35px 1fr;
+        grid-template-areas: 
+            "productName productName"
+            "sizes sizes"
+            "colors colors"
+            "price favorite";
+    }
+
+    .favorite {
+        font-size: auto;
+    }
+
+    .priceButton {
+        width: 150px;
+        height: 45px;
+    }
+    .priceButton span {
+        font-size: 12px !important;
+        flex-wrap: nowrap;
+    }
+
+    .priceButton div {
+        width: 30px;
+    }
+
 }

@@ -9,6 +9,20 @@
     line-height: 73px;
   }
 
+  .actionSection {
+    display: flex;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: space-around;
+    width: 192px;
+  }
+
+  .actionSection div {
+    display: flex;
+    justify-content: space-around;
+    width: 60px;
+  }
+
   .infoHeader {
     font-family: 'Noto Sans';
     font-style: normal;
@@ -22,12 +36,19 @@
     flex-grow: 0;
     }
 
-  .backgroundHeader {
+  .header {
         background-color: #202020;
+        display: flex; 
+        justify-content: space-between;
+        padding: 0px 50px
   }
 
-  .infoWidth {
+  .infoArea {
     width: 700px;
+    margin-right: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .link {
@@ -46,4 +67,27 @@
 
   .peçasDeRoupa a {
     width: 120px;
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      width: 100vw;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 15px;
+    }
+    .actionSection {
+      justify-content: center;
+      width: auto;
+    }
+
+    .actionSection div {
+      margin-right: 20px
+    }
+    .infoArea {
+      display: none;
+    }
+    .link {
+      font-size: 11px;
+    }
   }

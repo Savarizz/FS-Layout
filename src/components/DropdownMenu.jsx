@@ -10,9 +10,9 @@ export default function DropdownMenu(props) {
             <div className="card card-body d-flex justify-content-around flex-row border-top-0">
                 <div className="d-flex flex-column">
                     <div>
-                        <h3>Masculino</h3>
+                        <h3 className='fs-3 text-center'>Masculino</h3>
                     </div>
-                    <div className={`d-flex flex-column flex-wrap ${Styles.peçasDeRoupa}`} style={{height: '310px'}}>
+                    <div className={`d-flex flex-column text-center flex-wrap ${Styles.peçasDeRoupa}`} style={{height: '310px'}}>
                         <Link className={`${Styles.link} pe-3`} href="/">Calças</Link>
                         <Link className={`${Styles.link} pe-3`} href="/">Camisetas</Link>
                         <Link className={`${Styles.link} pe-3`} href="/">Bermudas</Link>
@@ -33,9 +33,9 @@ export default function DropdownMenu(props) {
 
                 <div className="d-flex flex-column">
                     <div>
-                        <h3>Feminino</h3>
+                        <h3 className='fs-3 text-center'>Feminino</h3>
                     </div>
-                    <div className={`d-flex flex-column flex-wrap ${Styles.peçasDeRoupa}`} style={{height: '310px'}}>
+                    <div className={`d-flex flex-column text-center flex-wrap ${Styles.peçasDeRoupa}`} style={{height: '310px'}}>
                         <Link className={`${Styles.link} pe-3`} href="/">Calças</Link>
                         <Link className={`${Styles.link} pe-3`} href="/">Camisetas</Link>
                         <Link className={`${Styles.link} pe-3`} href="/">Bermudas</Link>
@@ -59,9 +59,9 @@ export default function DropdownMenu(props) {
 
                 <div className="d-flex flex-column">
                     <div>
-                        <h3>Infantil</h3>
+                        <h3 className='fs-3 text-center'>Infantil</h3>
                     </div>
-                    <div className={`d-flex flex-column flex-wrap ${Styles.peçasDeRoupa}`} style={{height: '310px'}}>
+                    <div className={`d-flex flex-column text-center flex-wrap ${Styles.peçasDeRoupa}`} style={{height: '310px'}}>
                         <Link className={`${Styles.link} pe-3`} href="/">Calças</Link>
                         <Link className={`${Styles.link} pe-3`} href="/">Camisetas</Link>
                         <Link className={`${Styles.link} pe-3`} href="/">Bermudas</Link>

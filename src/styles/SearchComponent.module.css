@@ -11,7 +11,7 @@
     padding: 10px;
     padding-right: 30px;
     background-color: #15616D;
-    color: white
+    color: white;
 }
 
 .filterButton:hover {
@@ -21,6 +21,7 @@
 .inputArea {
     width: 564.9px;
     height: 45px;
+    margin-left: 24px
 }
 
 .inputArea button {
@@ -33,7 +34,10 @@
 
 .dropdownTab {
     transition: 0.7s ease-in-out;
+    width: 1512px; 
+    z-index: 10;
 }
+
 
 .swapDown {
     top: 213px
@@ -41,4 +45,33 @@
 
 .posPadrao {
     top: -385px
+}
+
+@media (max-width: 768px) {
+    .search {
+        width: 100vw;
+    }
+
+    .searchSection {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .inputArea {
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .inputArea button {
+        display: none;
+    }
+
+    .searchSection > button {
+       margin-top: 20px;
+       width: 80%;
+    }
+
+    .dropdownTab {
+        width: 90vw;
+    }
 }

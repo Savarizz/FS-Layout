@@ -8,6 +8,17 @@
     position: relative;
 }
 
+.promote {
+    display: flex;
+    justify-content: center;
+}
+
+.cardText {
+    font-family: 'Noto Sans'; 
+    font-size: 19px;
+    width: 470px
+}
+
 .discount {
     font-family: 'Lato';
     font-style: italic;
@@ -20,6 +31,8 @@
 
 .cardHeader {
     font-family: 'Outfit';
+    width: 500px;
+    margin-top: 16px;
 }
 
 .modeloPng {
@@ -29,5 +42,35 @@
     width: 134px;
     height: 206px;
     background-image: url(../../public/assets/imgs/Modelo.png);
+}
+
+@media(max-width: 768px) {
+    .promote {
+        width: 100vw;
+    }
+
+    .promoteCard {
+        width: 90%;
+    }
+
+    .cardHeader {
+        width: 65%;
+        font-size: 20px;
+    }
+
+    .discount {
+        font-size: 25px;
+        right: 90px;
+        bottom: -20px;
+    }
+
+    .cardText {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .modeloPng {
+        right: 0px;
+    }
 }
 

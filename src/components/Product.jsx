@@ -4,7 +4,7 @@ import ProductPhoto from "./ProductPhoto"
 
 export default function Product(props) {
     return(
-        <div style={{width: '313px', height: '490px'}} className="text-white shadow d-flex flex-column">
+        <div className={`text-white shadow d-flex flex-column ${Styles.productContainer}`}>
             <ProductPhoto firstImage={props.firstImage} alt={props.alt} id={props.id} secondImage={props.secondImage}/>
             <div className={`${Styles.infoBody} flex-grow-1 w-100`}>
                 <div className={`${Styles.productName} text-start px-3 text-black align-self-center`} style={{fontFamily: "Outfit", fontSize: '18px'}}>
@@ -34,7 +34,7 @@ export default function Product(props) {
                     <div className="text-decoration-line-through" style={{fontFamily: 'noto sans', color: '#B1B1B1', fontSize: '14px'}}>
                         200,00R$
                     </div>
-                    <button type="button" className="btn text-white rounded-0 d-flex justify-content-around align-items-center" style={{width: '125px', backgroundColor: '#15616D'}}>
+                    <button type="button" className={`btn text-white rounded-0 d-flex justify-content-around align-items-center ${Styles.priceButton}`}>
                         <i className="bi bi-cart2"></i>
                         <div className="px-1">
                             |
