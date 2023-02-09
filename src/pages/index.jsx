@@ -18,17 +18,17 @@ export default function Home() {
         <PromoteArea/>
         <div className="productsArea">
             <Collection collectionName="Moda casual">
-                    <Product firstImage="/assets/imgs/CalçaAdidasEssentials.jpg" secondImage="../../public/assets/imgs/CalçaAdidas.jpg" alt="Calça Adidas Essentials" id="carouselPhoto5"/>
-                    <Product firstImage="/assets/imgs/LeggingAdidas.jpg" secondImage="/assets/imgs/LeggingAdidas2.jpg" alt="Legging Adidas" id="carouselPhoto6"/>
-                    <Product firstImage="/assets/imgs/CalçaMoletomFeminina.jpeg" secondImage="/assets/imgs/CalçaMoletom.jpeg" alt="Calça Moletom Feminina" id="carouselPhoto7"/>
-                    <Product firstImage="/assets/imgs/ShortsAdidas.jpg" secondImage="/assets/imgs/ShortsAdidas2.jpg" alt="Shorts Adidas 3 Stripes" id="carouselPhoto8"/>
+                    <Product firstImage="./assets/imgs/CalçaAdidasEssentials.jpg" secondImage="./public/assets/imgs/CalçaAdidas.jpg" alt="Calça Adidas Essentials" id="carouselPhoto5"/>
+                    <Product firstImage="./assets/imgs/LeggingAdidas.jpg" secondImage="./assets/imgs/LeggingAdidas2.jpg" alt="Legging Adidas" id="carouselPhoto6"/>
+                    <Product firstImage="./assets/imgs/CalçaMoletomFeminina.jpeg" secondImage="./assets/imgs/CalçaMoletom.jpeg" alt="Calça Moletom Feminina" id="carouselPhoto7"/>
+                    <Product firstImage="./assets/imgs/ShortsAdidas.jpg" secondImage="./assets/imgs/ShortsAdidas2.jpg" alt="Shorts Adidas 3 Stripes" id="carouselPhoto8"/>
             </Collection>
 
             <Collection collectionName="Coleção verão">
-                    <Product firstImage="/assets/imgs/AdidasTactel.jpg" secondImage="/assets/imgs/AdidasTactel2.jpg" alt="Shorts Adidas Tactel Colorblue" id="carouselPhoto1"/>
-                    <Product firstImage="/assets/imgs/BlusaAishty.jpg" secondImage="/assets/imgs/BlusaAishty2.jpg" alt="Blusa Aishty" id="carouselPhoto2"/>
-                    <Product firstImage="/assets/imgs/Nike.jpg" secondImage="/assets/imgs/Nike2.jpg" alt="Camiseta Nike Logo" id="carouselPhoto3"/>
-                    <Product firstImage="/assets/imgs/CamisetaNike.jpg" secondImage="/assets/imgs/CamisetaNike2.jpg" alt="Camiseta Nike Get Your Kicks" id="carouselPhoto4"/>
+                    <Product firstImage="./assets/imgs/AdidasTactel.jpg" secondImage="./assets/imgs/AdidasTactel2.jpg" alt="Shorts Adidas Tactel Colorblue" id="carouselPhoto1"/>
+                    <Product firstImage="./assets/imgs/BlusaAishty.jpg" secondImage="./assets/imgs/BlusaAishty2.jpg" alt="Blusa Aishty" id="carouselPhoto2"/>
+                    <Product firstImage="./assets/imgs/Nike.jpg" secondImage="./assets/imgs/Nike2.jpg" alt="Camiseta Nike Logo" id="carouselPhoto3"/>
+                    <Product firstImage="./assets/imgs/CamisetaNike.jpg" secondImage="./assets/imgs/CamisetaNike2.jpg" alt="Camiseta Nike Get Your Kicks" id="carouselPhoto4"/>
             </Collection>
 
         </div>
