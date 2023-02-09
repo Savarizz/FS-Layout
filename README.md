@@ -1,7 +1,5 @@
 <img src="/public/assets/to_readme/PreviewFSWebsite.gif">
 
-<img src="/public/assets/to_readme/GifMobile.gif">
-
 <hr/>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
