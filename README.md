@@ -1,6 +1,6 @@
 <img src="/public/assets/to_readme/PreviewFSWebsite.gif">
 
-<img src="/public/assets/to_readme/GifMobile.gif">
+<img src="/public/assets/to_readme/GifMobilePreview.gif">
 
 <hr/>
 
