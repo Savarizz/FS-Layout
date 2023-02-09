@@ -19,7 +19,7 @@ export default function Home() {
         <PromoteArea/>
         <div className="productsArea">
             <Collection collectionName="Moda casual">
-                    <Product firstImage="/assets/imgs/CalçaAdidasEssentials.jpg" secondImage="/assets/imgs/CalçaAdidas.jpg" alt="Calça Adidas Essentials" id="carouselPhoto5"/>
+                    <Product firstImage="/assets/imgs/CalçaAdidasEssentials.jpg" secondImage="/public/assets/imgs/CalçaAdidas.jpg" alt="Calça Adidas Essentials" id="carouselPhoto5"/>
                     <Product firstImage="/assets/imgs/LeggingAdidas.jpg" secondImage="/assets/imgs/LeggingAdidas2.jpg" alt="Legging Adidas" id="carouselPhoto6"/>
                     <Product firstImage="/assets/imgs/CalçaMoletomFeminina.jpeg" secondImage="/assets/imgs/CalçaMoletom.jpeg" alt="Calça Moletom Feminina" id="carouselPhoto7"/>
                     <Product firstImage="/assets/imgs/ShortsAdidas.jpg" secondImage="/assets/imgs/ShortsAdidas2.jpg" alt="Shorts Adidas 3 Stripes" id="carouselPhoto8"/>
